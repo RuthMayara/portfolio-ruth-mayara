@@ -1,102 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfólio Ruth Mayara</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Ruth Mayara</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9fafb;
-      color: #222;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0 20px 40px;
-      line-height: 1.6;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
     }
+
     header {
+      background-color: #4a4e69;
+      color: #fff;
+      padding: 40px 20px;
       text-align: center;
-      padding: 50px 20px 20px;
-      background-color: #0a74da;
-      color: white;
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
     }
+
     header h1 {
       margin: 0;
-      font-size: 2.8rem;
-      letter-spacing: 2px;
+      font-size: 2.5em;
     }
+
     header p {
-      margin-top: 8px;
-      font-size: 1.2rem;
-      font-weight: 500;
+      margin-top: 10px;
+      font-size: 1.2em;
     }
+
     main {
       max-width: 900px;
-      margin: 30px auto;
-      background: white;
-      padding: 30px 40px;
-      border-radius: 15px;
-      box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+      margin: 40px auto;
+      padding: 0 20px;
     }
+
     section {
       margin-bottom: 40px;
     }
+
     h2 {
-      color: #0a74da;
-      border-bottom: 3px solid #0a74da;
-      padding-bottom: 6px;
-      margin-bottom: 20px;
-      font-size: 1.8rem;
+      border-left: 5px solid #4a4e69;
+      padding-left: 10px;
+      font-size: 1.6em;
+      color: #222;
     }
+
     ul {
-      list-style-type: disc;
-      padding-left: 20px;
-      margin-top: 0;
+      list-style: none;
+      padding: 0;
     }
+
     li {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
-    a {
-      color: #0a74da;
+
+    .contato a {
+      color: #4a4e69;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      font-size: 0.9em;
     }
-    .contact-info p {
-      margin: 6px 0;
-      font-size: 1.1rem;
+
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Ruth Mayara dos Santos Leite</h1>
-    <p>Estudante de Análise e Desenvolvimento de Sistemas | Sorocaba – SP</p>
+    <p>Estudante de ADS | Interesse em vagas júnior de Desenvolvimento ou Dados</p>
+    <p class="contato">
+      📧 <a href="mailto:ruthmayaraleite@gmail.com">ruthmayaraleite@gmail.com</a> |
+      📞 (15) 99600-0532 |
+      🔗 <a href="https://linkedin.com/in/ruthmayara" target="_blank">LinkedIn</a>
+    </p>
   </header>
+
   <main>
-    <section id="resumo-profissional">
+
+    <section>
       <h2>Resumo Profissional</h2>
-      <p>Estudante de Análise e Desenvolvimento de Sistemas, com experiências anteriores em ambientes administrativos e comerciais. Participei de projetos acadêmicos com foco em desenvolvimento, banco de dados e uso de IA para controle de acesso. Tenho facilidade em aprender, organização e boa comunicação, buscando oportunidades como auxiliar ou júnior em tecnologia.</p>
+      <p>Estudante de Análise e Desenvolvimento de Sistemas, com experiências anteriores em ambientes administrativos e comerciais. Participei de projetos acadêmicos com foco em desenvolvimento, banco de dados e uso de IA para controle de acesso. Tenho facilidade em aprender, organização, boa comunicação e estou em busca de oportunidades como auxiliar ou júnior em tecnologia, onde possa aplicar e desenvolver meus conhecimentos.</p>
     </section>
 
-    <section id="formacao-academica">
+    <section>
       <h2>Formação Acadêmica</h2>
-      <p><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong><br />UNINTER – Sorocaba/SP | 2024-2026</p>
-    </section>
-
-    <section id="projetos-academicos">
-      <h2>Projetos Acadêmicos</h2>
       <ul>
-        <li><strong>Cofrinho Digital (Java)</strong>: Sistema para controle de finanças pessoais com inserção e remoção de valores, usando POO e conceitos de herança e exceções.</li>
-        <li><strong>Banco de Dados para Locadora de Veículos (MySQL)</strong>: Criação de banco de dados relacional com consultas SQL e integridade referencial.</li>
-        <li><strong>Sistema de Controle de Acesso com IA</strong>: Modelagem de sistema com autenticação por reconhecimento facial e por voz, utilizando diagramas UML e análise de requisitos.</li>
-        <li><strong>Tecnologia Aplicada à Inclusão Digital (Extensão)</strong>: Levantamento de tecnologias para inclusão digital em comunidades carentes, focando nos ODS da ONU.</li>
+        <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong><br>
+        UNINTER – Sorocaba/SP | 2024–2026</li>
       </ul>
     </section>
 
-    <section id="conhecimentos-tecnicos">
+    <section>
+      <h2>Projetos Acadêmicos</h2>
+      <ul>
+        <li><strong>Cofrinho Digital (Java):</strong> Sistema para controle de finanças pessoais com Java orientado a objetos.</li>
+        <li><strong>Banco de Dados para Locadora (MySQL):</strong> Banco relacional com SQL e integridade referencial.</li>
+        <li><strong>Sistema de Controle de Acesso com IA:</strong> Modelagem com reconhecimento facial e de voz.</li>
+        <li><strong>Inclusão Digital (Extensão):</strong> Pesquisa sobre inclusão digital e ODS da ONU.</li>
+      </ul>
+    </section>
+
+    <section>
       <h2>Conhecimentos Técnicos</h2>
       <ul>
         <li><strong>Linguagens:</strong> Java, HTML, CSS, JavaScript</li>
@@ -106,14 +122,19 @@
       </ul>
     </section>
 
-    <section id="contato">
-      <h2>Contato</h2>
-      <div class="contact-info">
-        <p>Email: <a href="mailto:ruthmayaraleite@gmail.com">ruthmayaraleite@gmail.com</a></p>
-        <p>Telefone: (15) 99600-0532</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ruthmayara" target="_blank" rel="noopener noreferrer">linkedin.com/in/ruthmayara</a></p>
-      </div>
+    <section>
+      <h2>Links</h2>
+      <ul>
+        <li><strong>GitHub:</strong> <a href="https://github.com/RuthMayara" target="_blank">github.com/RuthMayara</a></li>
+        <li><strong>Portfólio:</strong> <a href="https://ruthmayara.github.io/portfolio-ruth-mayara" target="_blank">ruthmayara.github.io/portfolio-ruth-mayara</a></li>
+      </ul>
     </section>
+
   </main>
+
+  <div class="footer">
+    &copy; 2025 Ruth Mayara. Todos os direitos reservados.
+  </div>
+
 </body>
 </html>
